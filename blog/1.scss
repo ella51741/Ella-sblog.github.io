@@ -521,23 +521,24 @@ html {
       align-items: center;
     }
     main .tittle .panda h1 {
-      color: #fafafa;
-      text-align: center;
-      font-size: 2.5rem;
-      margin: 0;
-      padding: 1px;
-    }
-    main .tittle .panda h3 {
       color: #414141;
       text-align: center;
       font-size: 2rem;
       margin: 0;
-      padding: 0px;
+      padding: 3px;
+    }
+    main .tittle .panda h3 {
+      color: #7bbf9f;
+      text-align: center;
+      font-size: 2rem;
+      margin: 0;
+      padding: 3px;
     }
 
     main .tittle .panda img {
       width: 15vw;
       height: auto;
+      border-radius: 50%;
     }
 
     .portflio {
@@ -566,6 +567,7 @@ html {
       display: block;
       width: 80%;
       height: 70%;
+      border: 3px solid #1b384a;
     }
     .portflio .card a {
       text-decoration: none;
@@ -667,7 +669,7 @@ html {
     }
 
     .content form {
-      height: 35vh;
+      height: 30vh;
       display: flex;
       flex-direction: column;
       align-items: center;
