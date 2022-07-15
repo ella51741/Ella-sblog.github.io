@@ -325,8 +325,11 @@ body {
     height: 30vh;
     padding: 1rem;
   }
-  .homepage .footer nav ul li a {
+  .homepage .footer nav ul li a img {
     font-size: 1.5rem;
+  }
+  .homepage footer img {
+    width: 10vw;
   }
 }
 
@@ -873,7 +876,7 @@ body {
   .container nav ul li a {
     text-decoration: none;
     opacity: 1;
-    font-size: 0.5rem;
+    font-size: 1.5rem;
     -webkit-transition: 0.5s;
     transition: 0.5s;
     padding: 0.25rem 0.5rem;
@@ -955,7 +958,7 @@ body {
   .container .resume .me {
     width: auto;
     height: 20vh;
-    top: 30vh;
+    top: 40vh;
     left: 35vw;
   }
   .container .resume .flower1 {
@@ -1064,8 +1067,8 @@ body {
   .container .contact form div {
     margin: 15rem;
   }
-  footer img {
-    width: 5vw;
+  .container .contact footer img {
+    width: 10vw;
   }
   .homepage header .sun {
     bottom: 10%;
